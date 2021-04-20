@@ -25,6 +25,7 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* Nav link */
@@ -34,10 +35,9 @@ h2 {
     letter-spacing: 4px;
 }
 
-#menu,
-#logo {
+#menu, #logo {
     line-height: 75px;
-}
+    }
 
 #menu li {
     float: right;
@@ -75,9 +75,12 @@ h2 {
     height: 600;
     width: 100%;
     overflow: hidden;
+    position: relative;
 
 }
-
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
 
 
 /* create animation for hero image */
@@ -91,3 +94,54 @@ h2 {
         transform: scale(1.1);
     }
 }
+
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+/* Club Ethos */
+
+#club-ethos{
+    height: 600px;
+
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+
+}
+
+#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-about{
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+    /*position: relative; */
+}
+
