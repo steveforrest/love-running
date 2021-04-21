@@ -221,3 +221,8 @@ hr {
 #times, h2{
     color: #fafafa
 }
+
+#footer{
+    color: blue;
+    display: inline-block;
+}
